@@ -25,7 +25,7 @@ Option A: GitHub raw URLs
 
 Example:
 
-DATA_URL = "https://raw.githubusercontent.com/YOUR-ORG/wiser-course-data/main/data/notes.csv"
+DATA_URL = https://github.com/caracarlin/WISER-Training-Modules-.git
 
 notes = pd.read_csv(DATA_URL)
 Option B: Google Drive
