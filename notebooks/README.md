@@ -22,6 +22,7 @@ In Articulate Rise, add a button block labeled Open Google Colab Notebook.
 If using GitHub, link each notebook with:
 
 https://colab.research.google.com/github/YOUR-ORG/YOUR-REPO/blob/main/notebooks/NOTEBOOK_NAME.ipynb
+
 Design notes
 
 Each notebook includes synthetic fallback data so instructors can test without external files.
