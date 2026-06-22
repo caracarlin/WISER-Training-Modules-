@@ -67,4 +67,4 @@ Files
 -	docs/colab_data_urls_template.md: copy/paste placeholders for notebook DATA_URL values
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/notebooks/WISER_M4.ipynb)
+(https://colab.research.google.com/drive/1ST-e-TrCMB1hyw_4-wHFbdZlCcwwrymj?usp=sharing))
