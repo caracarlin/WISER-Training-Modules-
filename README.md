@@ -9,6 +9,7 @@ data/encounters.csv	Cross-module encounter-level substrate for clinical, SDOH, r
 data/notes.csv	Module 4 NLP semantics, terminology crosswalks, stigma-free language review, and text extraction
 data/insurance.csv	Insurance access, prior authorization, MOUD coverage, and access-barrier activities
 data/hopebridge_ml.csv	Module 6 HopeBridge ML workflow for prediction, subgroup performance, and fairness auditing
+
 Important use notes
 -	These records are synthetic and are not derived from any real patient, clinician, institution, or health system.
 -	Do not use these data for clinical decision-making, population estimation, publication as real-world evidence, or operational planning.
