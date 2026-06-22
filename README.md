@@ -39,20 +39,24 @@ Example:
 !gdown --id FILE_ID -O notes.csv
 
 notes = pd.read_csv("notes.csv")
+
 Option C: LMS or institutional file hosting
 Upload the CSV files to your LMS/course file area or institutional web storage. Use HTTPS links that are accessible from Colab without login, or instruct learners to upload the files manually.
 
 Suggested notebook URL mapping
 Notebook	Dataset URL to use
+
 Module 4 NLP	data/notes.csv
 Module 5 Visualization	data/post_overdose_data.csv
 Module 6 Machine Learning	data/hopebridge_ml.csv
 Module 7 Deep Learning & Images	no CSV required for template; optional use of data/encounters.csv for reflection metadata
-
 Module 8 Capstone	all CSVs as optional integrated evidence sources
+
 Stigma-free language reference
 Use person-first language such as "person with opioid use disorder," "person with a substance 
-use disorder," "substance use," "positive toxicology result," and "negative toxicology result." Avoid terms such as "addict," "drug abuser," and "clean/dirty" for toxicology results. See NIDA's Words Matter guidance: https://nida.nih.gov/nidamed-medical-health-professionals/health-professions-education/words-matter-terms-to-use-avoid-when-talking-about-addiction
+use disorder," "substance use," "positive toxicology result," and "negative toxicology result." 
+Avoid terms such as "addict," "drug abuser," and "clean/dirty" for toxicology results. 
+See NIDA's Words Matter guidance: https://nida.nih.gov/nidamed-medical-health-professionals/health-professions-education/words-matter-terms-to-use-avoid-when-talking-about-addiction
 
 Files
 -	dataset_manifest.csv: row and column counts for each dataset
