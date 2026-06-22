@@ -53,6 +53,7 @@ Module 8 Capstone	all CSVs as optional integrated evidence sources
 Stigma-free language reference
 Use person-first language such as "person with opioid use disorder," "person with a substance 
 use disorder," "substance use," "positive toxicology result," and "negative toxicology result." Avoid terms such as "addict," "drug abuser," and "clean/dirty" for toxicology results. See NIDA's Words Matter guidance: https://nida.nih.gov/nidamed-medical-health-professionals/health-professions-education/words-matter-terms-to-use-avoid-when-talking-about-addiction
+
 Files
 -	dataset_manifest.csv: row and column counts for each dataset
 -	data/: five synthetic CSV datasets
