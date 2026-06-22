@@ -1,6 +1,5 @@
 # WISER-Training-Modules-
 WISER Synthetic Dataset Package for Modules 4-8
-Generated with random seed 74025.
 
 This package contains five fully synthetic CSV datasets for WISER Modules 4-8:
 
@@ -61,3 +60,5 @@ Files
 -	docs/schema_overview.md: compact schema overview
 -	docs/colab_data_urls_template.md: copy/paste placeholders for notebook DATA_URL values
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/USERNAME/REPOSITORY/blob/main/notebooks/WISER_M4.ipynb)
