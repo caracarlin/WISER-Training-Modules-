@@ -1,0 +1,5 @@
+domain,question,status,next_step
+Findable,Can another reviewer identify dataset and version?,partial,
+Accessible,Can approved reviewers access notebook and outputs?,partial,
+Interoperable,Are variables and formats documented?,partial,
+Reusable,Are assumptions and caveats documented?,partial,

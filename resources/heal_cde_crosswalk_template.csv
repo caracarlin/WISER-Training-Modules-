@@ -1,0 +1,5 @@
+local_variable,heal_cde_or_standard,match_status,notes
+age,age,exact,
+race_ethnicity,race/ethnicity,partial,
+gender,gender identity,partial,
+substance_class,substance category,partial,
