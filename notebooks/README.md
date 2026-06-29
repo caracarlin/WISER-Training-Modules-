@@ -6,6 +6,7 @@ notebooks/WISER_M5_Data_Visualization_Template.ipynb
 notebooks/WISER_M6_Machine_Learning_Template.ipynb
 notebooks/WISER_M7_Deep_Learning_Images_Template.ipynb
 notebooks/WISER_M8_Capstone_Integration_Template.ipynb
+
 How to publish
 Upload this folder to a GitHub repository or Google Drive.
 
