@@ -21,7 +21,7 @@ In Articulate Rise, add a button block labeled Open Google Colab Notebook.
 
 If using GitHub, link each notebook with:
 
-https://colab.research.google.com/github/YOUR-ORG/YOUR-REPO/blob/main/notebooks/NOTEBOOK_NAME.ipynb
+](https://colab.research.google.com/drive/1ST-e-TrCMB1hyw_4-wHFbdZlCcwwrymj?usp=sharing)
 
 Design notes
 
