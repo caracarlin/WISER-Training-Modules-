@@ -11,17 +11,22 @@ Important use notes
 These records are synthetic and are not derived from any real patient, clinician, institution, or health system.
 Do not use these data for clinical decision-making, population estimation, publication as real-world evidence, or operational planning.
 Variables use person-first and stigma-free terminology where possible. A small number of legacy terms appear only in notes.csv for NLP crosswalk and language-audit teaching activities.
+
 The package avoids direct identifiers and does not contain PHI.
 Synthetic IDs are internally linkable across files via patient_id, and notes can link to encounters via encounter_id. Hosting for Google Colab Option A: GitHub raw URLs
+
 Create a GitHub repository, for example wiser-course-data.
 Upload the contents of this package.
 For each CSV, click Raw on GitHub and copy the raw URL.
+
 In each notebook, set DATA_URL to the raw URL.
 Example:
 
-DATA_URL = https://github.com/caracarlin/WISER-Training-Modules-.git
+DATA_URL = https://github.com/caracarlin/WISER-Training-Modules-
 
-notes = pd.read_csv(DATA_URL) Option B: Google Drive
+notes = pd.read_csv(DATA_URL) 
+
+Option B: Google Drive
 
 Upload the CSV files to a shared Google Drive folder.
 Set sharing to "Anyone with the link can view" if institutional policy allows.
