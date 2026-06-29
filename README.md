@@ -17,6 +17,7 @@ Important use notes
 -	The package avoids direct identifiers and does not contain PHI.
 -	Synthetic IDs are internally linkable across files via patient_id, and notes can link to encounters via encounter_id.
 Hosting for Google Colab
+
 Option A: GitHub raw URLs
 1.	Create a GitHub repository, for example wiser-course-data.
 2.	Upload the contents of this package.
