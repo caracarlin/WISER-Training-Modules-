@@ -18,34 +18,7 @@ Important use notes
 -	Synthetic IDs are internally linkable across files via patient_id, and notes can link to encounters via encounter_id.
 Hosting for Google Colab
 
-Option A: GitHub raw URLs
-1.	Create a GitHub repository, for example wiser-course-data.
-2.	Upload the contents of this package.
-3.	For each CSV, click Raw on GitHub and copy the raw URL.
-4.	In each notebook, set DATA_URL to the raw URL.
 
-Example:
-
-DATA_URL = https://github.com/caracarlin/WISER-Training-Modules-
-
-notes = pd.read_csv(DATA_URL)
-Option B: Google Drive
-1.	Upload the CSV files to a shared Google Drive folder.
-2.	Set sharing to "Anyone with the link can view" if institutional policy allows.
-3.	Use gdown or the Google Drive file ID in Colab.
-
-Example:
-
-!pip -q install gdown
-
-!gdown --id FILE_ID -O notes.csv
-
-notes = pd.read_csv("notes.csv")
-
-Option C: LMS or institutional file hosting
-Upload the CSV files to your LMS/course file area or institutional web storage. Use HTTPS links that are accessible from Colab without login, or instruct learners to upload the files manually.
-
-Suggested notebook URL mapping
 Notebook	Dataset URL to use
 
 Module 4 NLP	data/notes.csv
