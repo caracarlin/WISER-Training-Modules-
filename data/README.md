@@ -15,32 +15,6 @@ Variables use person-first and stigma-free terminology where possible. A small n
 The package avoids direct identifiers and does not contain PHI.
 Synthetic IDs are internally linkable across files via patient_id, and notes can link to encounters via encounter_id. Hosting for Google Colab Option A: GitHub raw URLs
 
-Create a GitHub repository, for example wiser-course-data.
-Upload the contents of this package.
-For each CSV, click Raw on GitHub and copy the raw URL.
-
-In each notebook, set DATA_URL to the raw URL.
-Example:
-
-DATA_URL = https://github.com/caracarlin/WISER-Training-Modules-
-
-notes = pd.read_csv(DATA_URL) 
-
-Option B: Google Drive
-
-Upload the CSV files to a shared Google Drive folder.
-Set sharing to "Anyone with the link can view" if institutional policy allows.
-Use gdown or the Google Drive file ID in Colab.
-Example:
-
-!pip -q install gdown
-
-!gdown --id FILE_ID -O notes.csv
-
-notes = pd.read_csv("notes.csv")
-
-Option C: LMS or institutional file hosting Upload the CSV files to your LMS/course file area or institutional web storage. Use HTTPS links that are accessible from Colab without login, or instruct learners to upload the files manually.
-
 Suggested notebook URL mapping Notebook Dataset URL to use
 
 Module 4 NLP data/notes.csv Module 5 Visualization data/post_overdose_data.csv Module 6 Machine Learning data/hopebridge_ml.csv Module 7 Deep Learning & Images no CSV required for template; optional use of data/encounters.csv for reflection metadata Module 8 Capstone all CSVs as optional integrated evidence sources
