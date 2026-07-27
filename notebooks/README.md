@@ -10,22 +10,7 @@ notebooks/WISER_M6_Machine_Learning_Template.ipynb
 notebooks/WISER_M7_Deep_Learning_Images_Template.ipynb
 notebooks/WISER_M8_Capstone_Integration_Template.ipynb
 
-How to publish
-Upload this folder to a GitHub repository or Google Drive.
 
-Replace blank DATA_URL values with stable URLs for the final WISER synthetic datasets.
-
-Open each notebook in Google Colab.
-
-Run Runtime → Restart and run all.
-
-Fix any dependency or data-loading issues.
-
-In Articulate Rise, add a button block labeled Open Google Colab Notebook.
-
-If using GitHub, link each notebook with:
-
-](https://colab.research.google.com/drive/1ST-e-TrCMB1hyw_4-wHFbdZlCcwwrymj?usp=sharing)
 
 Design notes
 
