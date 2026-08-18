@@ -1,0 +1,11 @@
+dataset,variable,type,description,example_values,missing_count,notes
+insurance.csv,patient_id,string,Synthetic person identifier.,WISER-P01149; WISER-P00036; WISER-P00875; WISER-P01069; WISER-P00874,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,coverage_month,period,Coverage month in YYYY-MM format.,2023-01; 2023-02; 2023-03; 2023-04; 2023-05,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,insurance_type,categorical,Insurance category.,Medicaid; Medicare; Commercial; Other public; Uninsured,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,plan_category,categorical,"Public, private, or uninsured category.",public; private; uninsured,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,moud_coverage_status,categorical,Coverage status for medication for opioid use disorder.,covered; not covered; unknown,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,naloxone_coverage_status,categorical,Coverage status for naloxone.,covered; not covered; community distribution only,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,prior_authorization_required_moud,binary,Prior authorization required for MOUD indicator.,1; 0,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,monthly_out_of_pocket_estimate,numeric,Synthetic estimated monthly out-of-pocket cost.,39.76; 34.35; 11.48; 24.0; 11.1,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,network_access_level,categorical,Synthetic network access category.,broad; moderate; limited; unknown,0,Synthetic data only; not for clinical decision-making.
+insurance.csv,coverage_gap_flag,binary,Coverage gap indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.

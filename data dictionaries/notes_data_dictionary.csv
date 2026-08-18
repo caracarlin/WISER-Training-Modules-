@@ -1,0 +1,17 @@
+dataset,variable,type,description,example_values,missing_count,notes
+notes.csv,note_id,string,Synthetic note identifier.,WISER-N000001; WISER-N000002; WISER-N000003; WISER-N000004; WISER-N000005,0,Synthetic data only; not for clinical decision-making.
+notes.csv,patient_id,string,Synthetic person identifier.,WISER-P00792; WISER-P00808; WISER-P00069; WISER-P00424; WISER-P00390,0,Synthetic data only; not for clinical decision-making.
+notes.csv,encounter_id,string,Synthetic encounter identifier.,WISER-E003327; WISER-E001413; WISER-E000008; WISER-E000113; WISER-E000768,0,Synthetic data only; not for clinical decision-making.
+notes.csv,note_date,date,Synthetic note date.,2024-09-25; 2021-05-26; 2019-01-06; 2019-03-03; 2020-04-25,0,Synthetic data only; not for clinical decision-making.
+notes.csv,calendar_year,integer,Calendar year of note.,2024; 2021; 2019; 2020; 2023,0,Synthetic data only; not for clinical decision-making.
+notes.csv,note_type,categorical,Type of note or text field.,progress note; intake summary; survey free text; care coordination note; legacy imported field,0,Synthetic data only; not for clinical decision-making.
+notes.csv,author_role,categorical,Role associated with text source.,public health analyst; participant-reported; clinician; care coordinator; legacy system,0,Synthetic data only; not for clinical decision-making.
+notes.csv,setting,categorical,Care or data setting.,primary care; emergency department; mobile outreach; community clinic; outpatient MOUD program,0,Synthetic data only; not for clinical decision-making.
+notes.csv,text,text,Synthetic text for NLP practice. No PHI.,"Person receiving methadone reports improved stability and requests Spanish-language education materials.; Person reports opioid-related cravings and requests information about medication for opioid use disorder.; Care team discussed transportation barrier and scheduled follow-up for buprenorphine treatment.; Chart contains older phrase substance abuse in imported legacy field; update recommended for learner-facing outputs.; Clinician documents housing instability, food insecurity, and missed appointment risk.",0,Synthetic data only; not for clinical decision-making.
+notes.csv,substance_mentions,categorical,Substance category mentioned in associated encounter.,multiple substances; opioids; alcohol; stimulants; kratom or emerging substance,0,Synthetic data only; not for clinical decision-making.
+notes.csv,stigma_term_flag,binary,Flag for intentionally included legacy term requiring review.,0; 1,0,Synthetic data only; not for clinical decision-making.
+notes.csv,person_first_rewrite_needed,binary,Flag for learner review/rewrite activity.,0; 1,0,Synthetic data only; not for clinical decision-making.
+notes.csv,deidentified,binary,Always 1; confirms synthetic/de-identified teaching text.,1,0,Synthetic data only; not for clinical decision-making.
+notes.csv,language_context,categorical,"Context of language source, e.g., clinical documentation or survey wording.",legacy terminology; clinical documentation; care coordination; survey wording,0,Synthetic data only; not for clinical decision-making.
+notes.csv,key_terms_legacy,string,Legacy or older term included for crosswalk teaching.,; substance abuse; pain reliever misuse,0,Synthetic data only; not for clinical decision-making.
+notes.csv,key_terms_current,string,Current or preferred teaching term.,; substance use disorder; nonmedical use of prescription opioids,0,Synthetic data only; not for clinical decision-making.

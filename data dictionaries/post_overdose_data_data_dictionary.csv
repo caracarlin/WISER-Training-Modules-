@@ -1,0 +1,24 @@
+dataset,variable,type,description,example_values,missing_count,notes
+post_overdose_data.csv,event_id,string,Synthetic overdose or post-overdose event identifier.,WISER-O00001; WISER-O00002; WISER-O00003; WISER-O00004; WISER-O00005,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,patient_id,string,Synthetic person identifier that can link across files; not derived from real data.,WISER-P01083; WISER-P00157; WISER-P00308; WISER-P00318; WISER-P00164,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,event_date,date,Synthetic event date.,2019-01-01; 2019-01-02; 2019-01-04; 2019-01-06; 2019-01-10,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,calendar_year,integer,Calendar year of event.,2019; 2020; 2021; 2022; 2023,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,county,string,Synthetic North Carolina county label.,Mecklenburg; Durham; Pitt; Guilford; Wake,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,region,string,Synthetic North Carolina region label.,Charlotte Metro; Triangle; Eastern NC; Piedmont; Southeastern NC,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,age_group,categorical,Age group at index event.,55-64; 45-54; 35-44; 65+; 18-24,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,race_ethnicity,categorical,Self-reported race/ethnicity category in synthetic record.,White; American Indian/Alaska Native; Black; Another race/ethnicity; Hispanic/Latino,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,gender_identity,categorical,Self-reported gender identity category in synthetic record.,Woman; Man; Prefer not to say; Another gender; Nonbinary,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,insurance_type,categorical,Insurance category at time of event.,Medicare; Medicaid; Commercial; Other public; Uninsured,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,substance_involved_primary,categorical,Primary substance category recorded for teaching.,alcohol; opioids; cannabis; benzodiazepines; stimulants,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,opioid_involved,binary,Indicator for opioid involvement in synthetic event.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,fentanyl_involved,binary,Indicator for fentanyl involvement in synthetic event.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,stimulant_involved,binary,Indicator for stimulant involvement in synthetic event.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,naloxone_administered,binary,Indicator that naloxone was administered.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,ed_disposition,categorical,Emergency care or transport disposition.,not transported; left before completion; discharged with follow-up; admitted; transferred,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,moud_linkage_within_7d,binary,Medication for opioid use disorder linkage recorded within 7 days.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,harm_reduction_kit_offered,binary,Harm reduction kit was offered.,1; 0,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,housing_insecure,binary,Housing insecurity indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,svi_quartile,integer,"Synthetic area-level social vulnerability quartile, 1 low to 4 high.",2; 1; 4; 3,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,outcome_30d,categorical,Synthetic 30-day follow-up category.,no repeat event recorded; repeat overdose event; treatment engagement recorded; lost to follow-up,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,provisional_flag,binary,Event is in provisional period for teaching visualization caveats.,0; 1,0,Synthetic data only; not for clinical decision-making.
+post_overdose_data.csv,data_source,categorical,Synthetic source-system label.,synthetic ED record; synthetic public health registry; synthetic EMS record,0,Synthetic data only; not for clinical decision-making.

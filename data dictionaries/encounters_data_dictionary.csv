@@ -1,0 +1,24 @@
+dataset,variable,type,description,example_values,missing_count,notes
+encounters.csv,encounter_id,string,Synthetic encounter identifier.,WISER-E000001; WISER-E000002; WISER-E000003; WISER-E000004; WISER-E000005,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,patient_id,string,Synthetic person identifier.,WISER-P00901; WISER-P00533; WISER-P00536; WISER-P00151; WISER-P00053,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,encounter_date,date,Synthetic encounter date.,2019-01-01; 2019-01-02; 2019-01-03; 2019-01-05; 2019-01-06,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,calendar_year,integer,Calendar year of encounter.,2019; 2020; 2021; 2022; 2023,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,setting,categorical,Care or outreach setting.,emergency department; outpatient MOUD program; residential treatment; mobile outreach; community clinic,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,visit_type,categorical,Encounter type.,follow-up; medication visit; intake; care coordination; post-overdose follow-up,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,primary_substance_category,categorical,Primary substance category recorded for teaching.,alcohol; stimulants; opioids; benzodiazepines; multiple substances,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,oud_diagnosis_status,categorical,Synthetic OUD diagnosis status.,OUD history; no OUD diagnosis recorded; current OUD diagnosis,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,dsm5_sud_severity,categorical,Synthetic DSM-5 substance use disorder severity.,moderate; severe; mild,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,pain_condition_documented,binary,Pain condition documented indicator.,1; 0,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,moud_status,categorical,Medication for opioid use disorder status.,methadone; not currently receiving MOUD; buprenorphine; extended-release naltrexone,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,phq9_score,integer,Synthetic PHQ-9-like score for teaching.,9; 20; 12; 18; 4,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,gad7_score,integer,Synthetic GAD-7-like score for teaching.,13; 17; 14; 7; 0,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,housing_insecure,binary,Housing insecurity indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,food_insecure,binary,Food insecurity indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,transportation_barrier,binary,Transportation barrier indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,preferred_language,categorical,Preferred language category.,English; Spanish; Other,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,interpreter_needed,binary,Interpreter support needed indicator.,0; 1,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,toxicology_result,categorical,Stigma-free toxicology result wording.,negative for non-prescribed opioids; positive for multiple substances; not collected; positive for non-prescribed opioids; positive for fentanyl,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,harm_reduction_referral,binary,Harm reduction referral indicator.,1; 0,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,behavioral_health_referral,binary,Behavioral health referral indicator.,1; 0,0,Synthetic data only; not for clinical decision-making.
+encounters.csv,followup_scheduled_days,numeric,Days until scheduled follow-up; missing means not scheduled/unknown.,45.0; 60.0; 14.0; 21.0; 30.0,487,Synthetic data only; not for clinical decision-making.
+encounters.csv,data_source,categorical,Synthetic source-system label.,synthetic care coordination record; synthetic EHR extract,0,Synthetic data only; not for clinical decision-making.
